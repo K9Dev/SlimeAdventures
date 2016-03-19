@@ -101,7 +101,7 @@ image_speed = 0.03;
           <argument>
             <kind>1</kind>
             <string>///poissonpond
-sprite_index = spr_boss_tree_waterpond_poisson;
+sprite_index = spr_boss_tree_waterpond_poison;
 image_speed = 0.1;
 poisonwater = true;
 
