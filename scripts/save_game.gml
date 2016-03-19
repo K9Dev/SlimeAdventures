@@ -14,12 +14,12 @@ if(file_exists(file)){
 
 ini_open(file);
 
-obj_nr = instance_number(obj_lifeform_parent);
+/*obj_nr = instance_number(obj_lifeform_parent);
 
 n0 = 0;
 n1 = 0;
 
-while (obj_nr > 0){
+ while (obj_nr > 0){
     obj = instance_find(obj_lifeform_parent, obj_nr - 1);
     
     ini_write_real("save", string(n0) + string(n1), obj.object_index);
@@ -33,7 +33,7 @@ while (obj_nr > 0){
     
     n0 += 1;
     n1 = 0;
-}
+}*/
 
 ini_close();
 

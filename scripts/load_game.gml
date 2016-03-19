@@ -11,7 +11,7 @@ file = get_open_filename("*.*","SlimeAdventures_save.ini");
 
 ini_open(file);
 
-scr_delete_all_objects(obj_lifeform_parent);
+/*scr_delete_all_objects(obj_lifeform_parent);
 
 while (ini_key_exists("save", string(n0) + string(n1))){
     
@@ -29,7 +29,7 @@ while (ini_key_exists("save", string(n0) + string(n1))){
     
     n0 += 1;
     n1 = 0;
-}
+}*/
 
 ini_close();
 
