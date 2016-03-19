@@ -1,5 +1,8 @@
 ///scr_attack_state
 //atm not working because no attack sprites
+
+//it will work, just do it
+
 image_speed = .5;
 switch (sprite_index){
     case spr_player_down:
