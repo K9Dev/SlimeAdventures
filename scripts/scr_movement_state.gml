@@ -2,6 +2,14 @@
 
 scr_get_input ();
 
+if(save_key){
+    save_game();
+}
+
+if(load_key){
+    load_game();    
+}
+
 if (dash_key and obj_player_stats.stamina >= DASH_COST){
     state = scr_dash_state;
     alarm[0] = room_speed/8;

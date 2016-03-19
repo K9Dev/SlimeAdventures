@@ -107,6 +107,7 @@
       <script>scripts\scr_get_face.gml</script>
       <script>scripts\scr_get_input.gml</script>
       <script>scripts\scr_backup_movement.gml</script>
+      <script>scripts\scr_delete_all_objects.gml</script>
     </scripts>
     <scripts name="Enemy Scripts">
       <script>scripts\scr_enemy_idle_state.gml</script>
@@ -114,6 +115,10 @@
       <script>scripts\scr_enemy_wander_state.gml</script>
       <script>scripts\scr_enemy_chase_state.gml</script>
       <script>scripts\scr_enemy_chose_next_state.gml</script>
+    </scripts>
+    <scripts name="SaveGame">
+      <script>scripts\load_game.gml</script>
+      <script>scripts\save_game.gml</script>
     </scripts>
   </scripts>
   <objects name="objects">
