@@ -51,10 +51,6 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_walls" x="0" y="0" name="inst_B97E70AA" locked="0" code="" scaleX="32" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_walls" x="480" y="0" name="inst_F4CD3F24" locked="0" code="" scaleX="2" scaleY="24" colour="4294967295" rotation="0"/>
-    <instance objName="obj_walls" x="0" y="0" name="inst_29C940A1" locked="0" code="" scaleX="2" scaleY="24" colour="4294967295" rotation="0"/>
-    <instance objName="obj_walls" x="0" y="352" name="inst_7763B921" locked="0" code="" scaleX="32" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_summoning_circle" x="256" y="192" name="inst_11FE1F8C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_summoning_magecircle" x="256" y="128" name="inst_A4E04378" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_summoning_magecircle" x="352" y="224" name="inst_A8095E8D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -62,14 +58,22 @@
     <instance objName="obj_summoning_mage" x="256" y="96" name="inst_D19B83AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_summoning_mage" x="352" y="192" name="inst_67790538" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_summoning_mage" x="160" y="192" name="inst_AE909D46" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_visiblewall" x="0" y="0" name="inst_D28E1C78" locked="0" code="" scaleX="16" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_visiblewall" x="0" y="0" name="inst_DC2F346D" locked="0" code="" scaleX="1" scaleY="12" colour="4294967295" rotation="0"/>
+    <instance objName="obj_visiblewall" x="0" y="352" name="inst_6779A092" locked="0" code="" scaleX="16.5161285400391" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_visiblewall" x="480" y="288" name="inst_E0C47902" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="obj_visiblewall" x="480" y="224" name="inst_F391DE52" locked="0" code="" scaleX="1" scaleY="-6" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door" x="480" y="288" name="inst_BBEB0DD1" locked="0" code="///Door to rm_hallway&#xA;new_room = rm_hallway;&#xA;new_x = 32;&#xA;new_y = 160;&#xA;" scaleX="1" scaleY="-4.26666688919067" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player" x="256" y="192" name="inst_137A0389" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player_stats" x="64" y="64" name="inst_D8F40CC6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
-  <PhysicsWorld>0</PhysicsWorld>
+  <PhysicsWorld>-1</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
   <PhysicsWorldLeft>0</PhysicsWorldLeft>
   <PhysicsWorldRight>1024</PhysicsWorldRight>
   <PhysicsWorldBottom>768</PhysicsWorldBottom>
   <PhysicsWorldGravityX>0</PhysicsWorldGravityX>
-  <PhysicsWorldGravityY>10</PhysicsWorldGravityY>
+  <PhysicsWorldGravityY>0</PhysicsWorldGravityY>
   <PhysicsWorldPixToMeters>0.100000001490116</PhysicsWorldPixToMeters>
 </room>

@@ -174,12 +174,15 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_summoning</room>
-    <room>rooms\rm_treeboss</room>
+    <rooms name="Floor 1">
+      <room>rooms\rm_summoning</room>
+      <room>rooms\rm_hallway</room>
+    </rooms>
     <rooms name="testing rooms">
       <room>rooms\room_0</room>
       <room>rooms\room_1</room>
     </rooms>
+    <room>rooms\rm_treeboss</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

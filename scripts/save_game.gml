@@ -38,6 +38,7 @@ n1 = 0;
 ini_close();
 
 if (file_exists(file)){
-    Logger("Saved gamefile!");
+//kei "Logger ():" funktion
+//   Logger("Saved gamefile!");
 }
 
