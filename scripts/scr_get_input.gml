@@ -24,4 +24,6 @@ if gamepad_is_connected (0){
     yaxis = gamepad_axis_value (0, gp_axislv);
     dash_key = gamepad_button_check_pressed (0, gp_shoulderr);
     attack_key = gamepad_button_check_pressed (0, gp_face1);
+    fire_key = gamepad_button_check_pressed (0, gp_face2)
+    poison_key = gamepad_button_check_pressed (0, gp_face3)
 }
