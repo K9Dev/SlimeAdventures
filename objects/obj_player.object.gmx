@@ -32,13 +32,13 @@ phy_fixed_rotation = true;
 attacked = false;
 firemodus = false;
 poisonmodus = false;
-spd = 4;
+spd = 2;
 hspd = 0;
 vspd = 0;
 lng = 0;
 dir = 0;
 face = RIGHT;
-image_speed = 1;
+image_speed = 0.5;
 state = scr_movement_state;
 </string>
           </argument>

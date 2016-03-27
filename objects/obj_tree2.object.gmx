@@ -58,7 +58,7 @@ depth = -y -4;
   </events>
   <PhysicsObject>-1</PhysicsObject>
   <PhysicsObjectSensor>0</PhysicsObjectSensor>
-  <PhysicsObjectShape>1</PhysicsObjectShape>
+  <PhysicsObjectShape>2</PhysicsObjectShape>
   <PhysicsObjectDensity>0</PhysicsObjectDensity>
   <PhysicsObjectRestitution>0.100000001490116</PhysicsObjectRestitution>
   <PhysicsObjectGroup>0</PhysicsObjectGroup>
@@ -68,9 +68,9 @@ depth = -y -4;
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
-    <point>36,44</point>
-    <point>64,44</point>
-    <point>64,60</point>
-    <point>36,60</point>
+    <point>104,36</point>
+    <point>108,36</point>
+    <point>120,64</point>
+    <point>92,64</point>
   </PhysicsShapePoints>
 </object>

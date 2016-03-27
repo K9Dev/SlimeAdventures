@@ -80,6 +80,7 @@
       <sprite>sprites\spr_object</sprite>
     </sprites>
     <sprite>sprites\MAP</sprite>
+    <sprite>sprites\OVERWORLD</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -92,6 +93,9 @@
     <background>background\background7</background>
     <background>background\background8</background>
     <background>background\background9</background>
+    <background>background\bk_green</background>
+    <background>background\bk_blue</background>
+    <background>background\bk_black</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -175,6 +179,7 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_sideview_test</room>
     <rooms name="Floor 1">
       <room>rooms\rm_summoning</room>
       <room>rooms\rm_hallway</room>

@@ -45,7 +45,7 @@ phy_position_x += hspd;
 phy_position_y += vspd;
 
 //animation
-image_speed = .2;
+image_speed = .1;
 //if (lng == 0) image_index = 0;
 
 //sprite control
