@@ -83,19 +83,29 @@
     <sprite>sprites\OVERWORLD</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\background0</background>
-    <background>background\bk_gras</background>
-    <background>background\bk_gras2</background>
-    <background>background\background3</background>
-    <background>background\background4</background>
-    <background>background\background5</background>
-    <background>background\background6</background>
-    <background>background\background7</background>
-    <background>background\background8</background>
-    <background>background\background9</background>
+    <background>background\bk_tutorialBk</background>
     <background>background\bk_green</background>
     <background>background\bk_blue</background>
     <background>background\bk_black</background>
+    <backgrounds name="Walls">
+      <background>background\bk_stonecliff_grass</background>
+      <background>background\bk_stonecliff</background>
+      <background>background\background14</background>
+      <background>background\bk_crafted_stonewall</background>
+    </backgrounds>
+    <backgrounds name="Floor">
+      <background>background\bk_greenPatch2</background>
+      <background>background\bk_dirt_path</background>
+      <background>background\bk_brownPatch</background>
+      <background>background\bk_brownPatch3</background>
+      <background>background\bk_greenPatch4</background>
+      <background>background\bk_brownPatch2</background>
+      <background>background\bk_gras2</background>
+      <background>background\bk_gras</background>
+      <background>background\bk_greenPatch3</background>
+      <background>background\bk_greenPatch</background>
+      <background>background\bk_stone_floor</background>
+    </backgrounds>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -179,6 +189,7 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_sideview_test2</room>
     <room>rooms\rm_sideview_test</room>
     <rooms name="Floor 1">
       <room>rooms\rm_summoning</room>
