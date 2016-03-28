@@ -6,6 +6,59 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+    <sprites name="Player Sprites">
+      <sprite>sprites\spr_slime_player_idle</sprite>
+      <sprite>sprites\spr_slime_player_right</sprite>
+      <sprite>sprites\spr_slime_player_jump_right</sprite>
+      <sprite>sprites\spr_slime_player_left</sprite>
+      <sprite>sprites\spr_slime_player_up</sprite>
+      <sprite>sprites\spr_slime_player_fire_idle</sprite>
+      <sprite>sprites\spr_slime_player_fire_right</sprite>
+      <sprite>sprites\spr_slime_player_fire_left</sprite>
+      <sprite>sprites\spr_slime_player_fire_up</sprite>
+      <sprite>sprites\spr_slime_player_firemode_idle</sprite>
+      <sprite>sprites\spr_slime_player_ice_idle</sprite>
+      <sprite>sprites\spr_slime_player_poison_idle</sprite>
+    </sprites>
+    <sprites name="NPCs">
+      <sprites name="Treeboss">
+        <sprite>sprites\spr_boss_tree</sprite>
+        <sprite>sprites\spr_boss_tree_leaf</sprite>
+        <sprite>sprites\spr_boss_tree_ranke</sprite>
+        <sprite>sprites\spr_boss_tree_waterpond</sprite>
+        <sprite>sprites\spr_boss_tree_waterpond_regen</sprite>
+        <sprite>sprites\spr_boss_tree_waterpond_poison</sprite>
+        <sprite>sprites\spr_boss_tree_spikes</sprite>
+        <sprite>sprites\spr_boss_tree_roots</sprite>
+      </sprites>
+      <sprite>sprites\spr_slime2</sprite>
+      <sprite>sprites\spr_monsterschnecke</sprite>
+      <sprite>sprites\spr_turtle</sprite>
+      <sprite>sprites\spr_drache</sprite>
+      <sprite>sprites\spr_fireball_demon</sprite>
+      <sprite>sprites\spr_blueshirt</sprite>
+      <sprite>sprites\spr_maich_fer</sprite>
+      <sprite>sprites\spr_marius</sprite>
+      <sprite>sprites\spr_summoning_mage</sprite>
+    </sprites>
+    <sprites name="Landschaft">
+      <sprite>sprites\spr_blatttree</sprite>
+      <sprite>sprites\spr_tree</sprite>
+      <sprite>sprites\spr_tree3</sprite>
+      <sprite>sprites\spr_summoning_circle</sprite>
+      <sprite>sprites\spr_blattBaum</sprite>
+      <sprite>sprites\spr_gestruepp_brennt</sprite>
+      <sprite>sprites\spr_snowball</sprite>
+      <sprite>sprites\spr_tree2</sprite>
+      <sprite>sprites\spr_rock2</sprite>
+      <sprite>sprites\spr_baum</sprite>
+      <sprite>sprites\spr_rock</sprite>
+      <sprite>sprites\spr_boulder</sprite>
+      <sprite>sprites\spr_summoning_magecircle</sprite>
+    </sprites>
+    <sprites name="Items">
+      <sprite>sprites\sprite29</sprite>
+    </sprites>
     <sprites name="Tutorial Sprites">
       <sprite>sprites\spr_slime</sprite>
       <sprites name="Player">
@@ -20,67 +73,19 @@
         <sprite>sprites\spr_player_attack_up</sprite>
       </sprites>
     </sprites>
-    <sprites name="Testing Sprites">
-      <sprite>sprites\spr_damage</sprite>
-      <sprite>sprites\spr_firedamage</sprite>
-      <sprite>sprites\spr_door</sprite>
-      <sprite>sprites\spr_expr</sprite>
-      <sprite>sprites\spr_blattBaum</sprite>
-      <sprite>sprites\spr_blueshirt</sprite>
-      <sprite>sprites\spr_baum</sprite>
-      <sprite>sprites\spr_marius</sprite>
-      <sprite>sprites\spr_tree2</sprite>
-      <sprite>sprites\spr_tree</sprite>
-      <sprite>sprites\spr_rock2</sprite>
-      <sprite>sprites\sprite29</sprite>
-      <sprite>sprites\spr_blatttree</sprite>
-      <sprite>sprites\spr_tree3</sprite>
-      <sprite>sprites\spr_gestruepp_brennt</sprite>
-      <sprite>sprites\spr_boulder</sprite>
-      <sprite>sprites\spr_rock</sprite>
-      <sprite>sprites\spr_monsterschnecke</sprite>
-      <sprite>sprites\spr_snowball</sprite>
-      <sprite>sprites\spr_summoning_circle</sprite>
-      <sprite>sprites\spr_summoning_magecircle</sprite>
-      <sprite>sprites\spr_summoning_mage</sprite>
-      <sprites name="unused sprites">
-        <sprite>sprites\sprite20</sprite>
-        <sprite>sprites\spr_drache</sprite>
-        <sprite>sprites\spr_maich_fer</sprite>
-        <sprite>sprites\spr_slime2</sprite>
-      </sprites>
-    </sprites>
-    <sprites name="treeboss">
-      <sprite>sprites\spr_boss_tree</sprite>
-      <sprite>sprites\spr_boss_tree_leaf</sprite>
-      <sprite>sprites\spr_boss_tree_ranke</sprite>
-      <sprite>sprites\spr_boss_tree_waterpond</sprite>
-      <sprite>sprites\spr_boss_tree_waterpond_regen</sprite>
-      <sprite>sprites\spr_boss_tree_waterpond_poison</sprite>
-      <sprite>sprites\spr_boss_tree_spikes</sprite>
-      <sprite>sprites\spr_boss_tree_roots</sprite>
-    </sprites>
-    <sprites name="player sprites">
-      <sprite>sprites\spr_slime_player_idle</sprite>
-      <sprite>sprites\spr_slime_player_right</sprite>
-      <sprite>sprites\spr_slime_player_jump_right</sprite>
-      <sprite>sprites\spr_slime_player_left</sprite>
-      <sprite>sprites\spr_slime_player_up</sprite>
-      <sprite>sprites\spr_slime_player_fire_idle</sprite>
-      <sprite>sprites\spr_slime_player_fire_right</sprite>
-      <sprite>sprites\spr_slime_player_fire_left</sprite>
-      <sprite>sprites\spr_slime_player_fire_up</sprite>
-      <sprite>sprites\spr_slime_player_firemode_idle</sprite>
-      <sprite>sprites\spr_slime_player_ice_idle</sprite>
-      <sprite>sprites\spr_slime_player_poison_idle</sprite>
-    </sprites>
     <sprites name="placeholder sprites">
+      <sprite>sprites\MAP</sprite>
+      <sprite>sprites\OVERWORLD</sprite>
       <sprite>sprites\spr_npc</sprite>
       <sprite>sprites\spr_boundary</sprite>
       <sprite>sprites\spr_object</sprite>
     </sprites>
-    <sprite>sprites\MAP</sprite>
-    <sprite>sprites\OVERWORLD</sprite>
+    <sprites name="Other">
+      <sprite>sprites\spr_damage</sprite>
+      <sprite>sprites\spr_expr</sprite>
+      <sprite>sprites\spr_firedamage</sprite>
+      <sprite>sprites\spr_door</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bk_tutorialBk</background>
@@ -137,7 +142,7 @@
     </scripts>
   </scripts>
   <objects name="objects">
-    <objects name="player objects">
+    <objects name="Player Objects">
       <object>objects\obj_player</object>
       <object>objects\obj_player_fire</object>
       <object>objects\obj_firemodus</object>
@@ -145,18 +150,24 @@
       <object>objects\obj_player_ice</object>
       <object>objects\obj_player_stats</object>
     </objects>
-    <objects name="other shit">
-      <object>objects\obj_snowball</object>
-      <object>objects\object16</object>
+    <objects name="NPCs">
       <object>objects\obj_monsterschnecke</object>
-      <object>objects\obj_slime</object>
-      <object>objects\obj_baum</object>
-      <object>objects\obj_tree2</object>
-      <object>objects\obj_tree</object>
       <object>objects\obj_maich_fer</object>
       <object>objects\obj_marius</object>
+      <object>objects\obj_summoning_mage</object>
+      <object>objects\obj_slime</object>
+      <object>objects\obj_turtle</object>
     </objects>
-    <objects name="helper objects">
+    <objects name="Landscape">
+      <object>objects\object16</object>
+      <object>objects\obj_baum</object>
+      <object>objects\obj_tree</object>
+      <object>objects\obj_tree2</object>
+      <object>objects\obj_summoning_circle</object>
+      <object>objects\obj_summoning_magecircle</object>
+      <object>objects\obj_snowball</object>
+    </objects>
+    <objects name="Helper Objects">
       <object>objects\obj_dash_effect</object>
       <object>objects\obj_spawn</object>
       <object>objects\obj_parent_lifeform</object>
@@ -165,9 +176,8 @@
       <object>objects\obj_expr</object>
       <object>objects\obj_firedamage</object>
       <object>objects\obj_damage</object>
-      <object>objects\obj_walls</object>
     </objects>
-    <objects name="treeboss">
+    <objects name="Treeboss Objects">
       <object>objects\obj_treeboss</object>
       <object>objects\obj_treeboss_leaf</object>
       <object>objects\obj_roots</object>
@@ -177,24 +187,18 @@
       <object>objects\obj_waterpond</object>
       <object>objects\obj_ranke</object>
     </objects>
-    <objects name="summoning objects">
-      <object>objects\obj_summoning_circle</object>
-      <object>objects\obj_summoning_magecircle</object>
-      <object>objects\obj_summoning_mage</object>
-    </objects>
     <objects name="placeholder object">
       <object>objects\obj_npc</object>
       <object>objects\obj_objekt</object>
       <object>objects\obj_visiblewall</object>
+      <object>objects\obj_invis_walls</object>
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_sideview_test2</room>
     <room>rooms\rm_sideview_test</room>
-    <rooms name="Floor 1">
-      <room>rooms\rm_summoning</room>
-      <room>rooms\rm_hallway</room>
-    </rooms>
+    <room>rooms\rm_sideview_test2</room>
+    <room>rooms\rm_summoning</room>
+    <room>rooms\rm_hallway</room>
     <room>rooms\rm_treeboss</room>
     <rooms name="testing rooms">
       <room>rooms\room_1</room>

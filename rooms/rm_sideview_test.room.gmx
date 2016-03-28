@@ -74,10 +74,10 @@
     <instance objName="obj_player" x="96" y="640" name="inst_2722DFC3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_view" x="128" y="640" name="inst_9D088EA3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player_stats" x="160" y="128" name="inst_FD38D6BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_walls" x="0" y="480" name="inst_79048FA0" locked="0" code="" scaleX="1" scaleY="18" colour="4294967295" rotation="0"/>
-    <instance objName="obj_walls" x="-96" y="751" name="inst_1F584D6D" locked="0" code="" scaleX="72" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_walls" x="1041" y="455" name="inst_DCD421DD" locked="0" code="" scaleX="-2" scaleY="20" colour="4294967295" rotation="0"/>
-    <instance objName="obj_walls" x="-3" y="496" name="inst_29F24AB8" locked="0" code="" scaleX="74" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_invis_walls" x="0" y="480" name="inst_79048FA0" locked="0" code="" scaleX="1" scaleY="18" colour="4294967295" rotation="0"/>
+    <instance objName="obj_invis_walls" x="-96" y="751" name="inst_1F584D6D" locked="0" code="" scaleX="72" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_invis_walls" x="1041" y="455" name="inst_DCD421DD" locked="0" code="" scaleX="-2" scaleY="20" colour="4294967295" rotation="0"/>
+    <instance objName="obj_invis_walls" x="-3" y="496" name="inst_29F24AB8" locked="0" code="" scaleX="74" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bk_blue" x="64" y="64" w="64" h="64" xo="0" yo="0" id="10000039" name="inst_FC452771" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
