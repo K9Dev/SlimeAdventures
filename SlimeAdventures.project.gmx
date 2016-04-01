@@ -131,6 +131,7 @@
       <script>scripts\scr_get_input.gml</script>
       <script>scripts\scr_backup_movement.gml</script>
       <script>scripts\scr_delete_all_objects.gml</script>
+      <script>scripts\Logger.gml</script>
     </scripts>
     <scripts name="Enemy Scripts">
       <script>scripts\scr_enemy_idle_state.gml</script>
@@ -140,8 +141,9 @@
       <script>scripts\scr_enemy_chose_next_state.gml</script>
     </scripts>
     <scripts name="SaveGame">
-      <script>scripts\load_game.gml</script>
+      <script>scripts\load_room.gml</script>
       <script>scripts\save_game.gml</script>
+      <script>scripts\load_game.gml</script>
     </scripts>
   </scripts>
   <shaders name="shaders">
@@ -183,6 +185,7 @@
       <object>objects\obj_firedamage</object>
       <object>objects\obj_damage</object>
       <object>objects\obj_shader</object>
+      <object>objects\obj_global_parent</object>
     </objects>
     <objects name="Treeboss Objects">
       <object>objects\obj_treeboss</object>

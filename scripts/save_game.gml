@@ -14,31 +14,38 @@ if(file_exists(file)){
 
 ini_open(file);
 
-/*obj_nr = instance_number(obj_lifeform_parent);
+var gameroom = room;
+
+ini_write_real("room","roomname",gameroom); 
+
+
+obj_nr = instance_number(obj_global_parent);
+
+Logger("NR Instances: " + string(obj_nr));
 
 n0 = 0;
 n1 = 0;
 
- while (obj_nr > 0){
-    obj = instance_find(obj_lifeform_parent, obj_nr - 1);
+while (obj_nr > 0){
+    obj = instance_find(obj_global_parent, obj_nr - 1);
     
-    ini_write_real("save", string(n0) + string(n1), obj.object_index);
+    ini_write_real("objects", string(n0) + string(n1), obj.object_index);
     n1 += 1;
     
-    ini_write_real("save", string(n0) + string(n1), obj.x);
+    ini_write_real("objects", string(n0) + string(n1), obj.x);
     n1 += 1;
     
-    ini_write_real("save", string(n0) + string(n1), obj.y);
+    ini_write_real("objects", string(n0) + string(n1), obj.y);
     obj_nr -= 1;
     
     n0 += 1;
     n1 = 0;
-}*/
+}
 
 ini_close();
 
 if (file_exists(file)){
-//kei "Logger ():" funktion
-//   Logger("Saved gamefile!");
+   Logger("Saved gamefile!");
 }
+
 

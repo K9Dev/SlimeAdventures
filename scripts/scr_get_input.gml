@@ -9,8 +9,8 @@ fire_key = keyboard_check(ord('J'));
 poison_key = keyboard_check(ord('U'));
 
 //save game
-save_key = keyboard_check_pressed(ord(","));
-load_key = keyboard_check_pressed(ord("."));
+save_key = keyboard_check_pressed(ord("I"));
+load_key = keyboard_check_pressed(ord("O"));
 
 //get the axis
 xaxis = (right_key - left_key);
