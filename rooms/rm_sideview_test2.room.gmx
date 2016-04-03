@@ -60,6 +60,14 @@
     <instance objName="obj_view" x="192" y="128" name="inst_9FD590B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_slime" x="192" y="704" name="inst_679AED5C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_slime" x="192" y="736" name="inst_1AB86A10" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_gras_wind" x="320" y="704" name="inst_0856AB81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_gras_wind" x="416" y="736" name="inst_7D9F2787" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_gras_wind" x="544" y="704" name="inst_2DC0C7D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_gras_wind" x="672" y="704" name="inst_7E48E509" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_gras_wind" x="768" y="736" name="inst_61246C6C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_gras_wind" x="864" y="704" name="inst_6BF40249" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_gras_wind" x="992" y="704" name="inst_C5CF6C2C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_gras_wind" x="992" y="736" name="inst_81689634" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bk_green" x="672" y="672" w="32" h="32" xo="0" yo="0" id="10001195" name="inst_8623CB43" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

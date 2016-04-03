@@ -55,6 +55,8 @@
       <sprite>sprites\spr_rock</sprite>
       <sprite>sprites\spr_boulder</sprite>
       <sprite>sprites\spr_summoning_magecircle</sprite>
+      <sprite>sprites\spr_tree_round</sprite>
+      <sprite>sprites\spr_gras_wind</sprite>
     </sprites>
     <sprites name="Items">
       <sprite>sprites\sprite29</sprite>
@@ -88,10 +90,6 @@
     </sprites>
   </sprites>
   <backgrounds name="background">
-    <background>background\bk_grasland</background>
-    <background>background\bk_green</background>
-    <background>background\bk_blue</background>
-    <background>background\bk_black</background>
     <backgrounds name="Walls">
       <background>background\bk_stonecliff_grass</background>
       <background>background\bk_stonewall_grasland</background>
@@ -111,9 +109,19 @@
       <background>background\bk_greenPatch3</background>
       <background>background\bk_greenPatch</background>
       <background>background\bk_stone_floor</background>
+      <background>background\bk_grasland</background>
+      <background>background\bk_gras_path</background>
+      <background>background\bk_gras_circle</background>
+      <background>background\bk_gras_path2</background>
     </backgrounds>
-    <background>background\bk_gray</background>
-    <background>background\bk_dark_gray</background>
+    <backgrounds name="One Colour">
+      <background>background\bk_gray</background>
+      <background>background\bk_black</background>
+      <background>background\bk_blue</background>
+      <background>background\bk_green</background>
+      <background>background\bk_green_dark</background>
+      <background>background\bk_dark_gray</background>
+    </backgrounds>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -174,6 +182,8 @@
       <object>objects\obj_summoning_circle</object>
       <object>objects\obj_summoning_magecircle</object>
       <object>objects\obj_snowball</object>
+      <object>objects\obj_gras_wind</object>
+      <object>objects\obj_tree_forest</object>
     </objects>
     <objects name="Helper Objects">
       <object>objects\obj_dash_effect</object>
@@ -205,14 +215,15 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_forest_testpart</room>
     <room>rooms\rm_sideview_test2</room>
-    <room>rooms\rm_summoning</room>
     <room>rooms\rm_sideview_test</room>
-    <room>rooms\rm_shader_test</room>
-    <room>rooms\rm_hallway</room>
-    <room>rooms\rm_treeboss</room>
     <rooms name="testing rooms">
+      <room>rooms\rm_shader_test</room>
+      <room>rooms\rm_summoning</room>
       <room>rooms\room_1</room>
+      <room>rooms\rm_treeboss</room>
+      <room>rooms\rm_hallway</room>
       <room>rooms\room_0</room>
     </rooms>
   </rooms>
